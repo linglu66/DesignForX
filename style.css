@@ -1,0 +1,50 @@
+*{
+	border: solid black 0.5px;
+	font-family:sans-serif;
+}
+#navbar{
+	display:flex;
+	height:100px;
+	justify-content: space-between;
+}
+
+#linkbox{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#scrollpage{
+	width:100%;
+	display:flex;
+	justify-content: column;
+}
+
+#title_section{
+	width:100%;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	align-content: center;
+	height:80vh;
+	justify-content: center;
+}
+
+body{
+	display:flex;
+	flex-direction: column;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+#linkbox>a{
+	margin:10px;
+}
+
+.section{
+	display: flex;
+	height:100px;
+	border:3px red solid;
+
+}
