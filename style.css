@@ -12,11 +12,7 @@
 	/*border:solid red 0.5px;*/
 	width:100%;
 	background-color: white;
-}
-a{
-	text-decoration: none;
-	color: black;
-	padding-right: 10px;
+
 }
 
 #logo{
@@ -27,14 +23,65 @@ a{
 	background-size: contain;
 	background-repeat:no-repeat;
 }
+
+
 #linkbox{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
-	align-items: center;
-	text-decoration: none;
-	margin-right: 50px;
+	box-sizing: border-box;
+	
+	width: 40%;
+    margin: 0 auto;
+ 	/*border:solid red 0.5px;*/
+ 	padding:auto;
 }
+
+.two:hover ~ hr {
+  margin-left: 25%;
+  box-sizing: border-box;
+  padding: auto;
+}
+
+.three:hover ~ hr {
+  margin-left: 50%;
+  box-sizing: border-box;
+  padding: auto;
+}
+
+.four:hover ~ hr {
+  margin-left: 75%;
+  box-sizing: border-box;
+  padding: auto;
+}
+
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background: #cc9900;
+  border: none;
+  transition: .3s ease-in-out;
+  box-sizing: border-box;
+  padding: auto;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+  box-sizing: border-box;
+  padding: auto;
+  margin: auto;
+  /*border:solid red 0.5px;*/
+}
+
+a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+  box-sizing: border-box;
+}
+
 h1{
 	font-size: 60pt;
 	padding-bottom: 0px;
@@ -66,10 +113,6 @@ body{
 	flex-direction: column;
 	width:90;
  	margin: 0;}
-
-#linkbox>a{
-	margin:10px;
-}
 
 .section{
 	display: flex;
@@ -138,4 +181,9 @@ body{
 	justify-content: flex-start;
 	width: 75%;
 	border: solid black 0.5px;
+}
+
+
+h2{
+	font-weight: 200;
 }
