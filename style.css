@@ -12,6 +12,7 @@
 	/*border:solid red 0.5px;*/
 	width:100%;
 	background-color: white;
+	box-shadow: 0 10px 30px #3a3a3a;
 
 }
 
@@ -186,4 +187,37 @@ body{
 
 h2{
 	font-weight: 200;
+}
+
+h3{
+	font-size: 30pt;
+}
+
+#first {
+	background-image: url(images/planning2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height:40%;
+	width:50%;
+}
+
+#second{
+	background-image: url(images/collaboration.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height:40%;
+	width:50%;
+
+}
+
+#third{
+	background-image: url(images/meeting.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height:40%;
+	width:50%;
+}
+
+p{
+	font-size: 14pt;
 }
