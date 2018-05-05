@@ -12,8 +12,8 @@
 	/*border:solid red 0.5px;*/
 	width:100%;
 	background-color: white;
-	box-shadow: 0 10px 30px #3a3a3a;
-
+	/*box-shadow: 0 10px 30px #3a3a3a;
+*/
 }
 
 #logo{
@@ -220,4 +220,49 @@ h3{
 
 p{
 	font-size: 14pt;
+}
+
+a.abc{
+	color: white;
+	border:0.1em solid white;
+	padding:3.5px 4px;
+	border-radius: 4px;
+	font-weight:300;
+ 	color:#FFFFFF;
+ 	text-align:center;
+ 	transition: all 1s;
+	text-decoration: none;
+	display: block;
+
+}
+
+.abc:hover{
+	color:#000000;
+	background-color:white;
+}
+a.button1{
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
+}
+
+a.button1:hover{
+ color:white;
+ background-color:white;
+}
+
+@media all and (max-width:30em){
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+ }
 }
